@@ -289,7 +289,7 @@ int main(int argc, char* argv[])
 		//vpls = centralDiffOpP(v, dt, a);
 		//vpls = bDiffOpP(v, dt, a);
 		//vpls = backDiffOpP(v, dt, a);
-		vpls = forwardDiffOpP(v, dt, a);
+		//vpls = forwardDiffOpP(v, dt, a);
 
         // update time, stepcount, and exact solution 
         time += dt;
